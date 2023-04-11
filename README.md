@@ -5,6 +5,7 @@ Example of basic Webpack config for a website.
 - styling by SCSS
 
 Use node verison 14+ or latest
+[click here for node](https://nodejs.org/en/download)
 ```
 $ nvm install 14
 $ nvm use 14
