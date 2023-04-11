@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="src/css/icon-font.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="src/img/favicon.png">
+        
+        <title>About me | my amazing projects</title>
+    </head>
+    
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Me</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Who am I</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Features</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Popular websites</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contact now</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="src/img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Jan Dorschner</span>
+                    <span class="heading-primary--sub">front end developer</span>
+                </h1>
+
+                <a href="#section-about" class="btn btn--white btn--animated">Learn more</a>
+            </div>
+        </header>
+
+        <main id="section-about">
+            <section class="section-about">
+                <div class="u-center-text u-mb-big">
+                    <h2 class="heading-secondary">
+                        Very short description who exactly am I
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-mb-small">I like my work</h3>
+                        <p class="paragraph">
+                            I'm 32 years old and I'm a frontend developer. I mainly work with HTML, CSS and Javascript. I have been in the industry for 7 years, so I have experience also with ui/ux and SEO. <br />Most of the time, I worked on e-shop creation.
+                        </p>
+
+                        <h3 class="heading-tertiary u-mb-small">In my free time</h3>
+                        <p class="paragraph">
+                            In my spare time I enjoy cycling, running and calisthenics. <br />In the winter, I play ice hockey and indoor cycling.
+                        </p>
+                        <a href="#section-tours" class="btn-text">Explore my projects &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <picture>
+                                <source srcset="src/img/nat-1.jpg 1x, src/img/nat-1-large.jpg 2x" media="(max-width: 37.5rem)">
+                                <img srcset="src/img/nat-1.jpg 1x, src/img/nat-1-large.jpg 2x" alt="Full logo" src="src/img/nat-1-large.jpg" class="composition__photo composition__photo--p1">
+                            </picture>
+                            <picture>
+                                <source srcset="src/img/nat-2.jpg 1x, src/img/nat-2-large.jpg 2x" media="(max-width: 37.5rem)">
+                                <img srcset="src/img/nat-2.jpg 1x, src/img/nat-2-large.jpg 2x" alt="Full logo" src="src/img/nat-2-large.jpg" class="composition__photo composition__photo--p2">
+                            </picture>
+                            <picture>
+                                <source srcset="src/img/nat-3.jpg 1x, src/img/nat-3-large.jpg 2x" media="(max-width: 37.5rem)">
+                                <img srcset="src/img/nat-3.jpg 1x, src/img/nat-3-large.jpg 2x" alt="Full logo" src="src/img/nat-3-large.jpg" class="composition__photo composition__photo--p3">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-features" id="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-mb-small">New features</h3>
+                            <p class="feature-box__text">
+                                I like to learn new technologies like new css methods (@features, mapping, functions etc).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-mb-small">Lorem Ipsum</h3>
+                            <p class="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-mb-small">Find your way</h3>
+                             <p class="feature-box__text">
+                                Sometimes it happens that I can't find a solution, but luckily there is an internet that knows everything.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-mb-small">Live a healthier life</h3>
+                            <p class="feature-box__text">
+                                Because I spend a lot of time at the computer, I try to run, ride a bike or do calesthetics at home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-websites">
+                <div class="u-center-text u-mb-big">
+                    <h2 class="heading-secondary" id="section-websites">Most favorite websites</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-3">
+                       <div class="card">
+                           <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">Zluta Hala</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Bohatý sortiment</li>
+                                        <li>Cenově dostupný nábytek</li>
+                                        <li>Sedací soupravy</li>
+                                        <li>Obývací stěny</li>
+                                        <li>Sektorový nábytek</li>
+                                    </ul>
+                                </div>
+                           </div>
+                           <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__parametrs-box">
+                                        <p class="card__parametrs-used">Used</p>
+                                        <ul class="card__parametrs-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Laravel</li>
+                                            <li>Algolia</li>
+                                        </ul>
+                                    </div>
+                                    <a target="_blank" href="https://www.zlutahala.cz/" class="btn btn--white">show website!</a>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">Limbeck</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Pánské košile</li>
+                                        <li>Stylové motýlky</li>
+                                        <li>Elegantí kravaty</li>
+                                        <li>Pohodlné svetry</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__parametrs-box">
+                                        <p class="card__parametrs-used">Used</p>
+                                        <ul class="card__parametrs-list">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                        </ul>
+                                    </div>
+                                    <a target="_blank" href="https://www.limbeck.cz/" class="btn btn--white">show website!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">Parfemy Elnino</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Parfémy a kosmetika</li>
+                                        <li>Milion položek skladem</li>
+                                        <li>20 let na trhu</li>
+                                        <li>Statisíce spokojených zákazníků</li>
+                                        <li>Nejlepší ceny</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__parametrs-box">
+                                        <p class="card__parametrs-used">Used</p>
+                                        <ul class="card__parametrs-list">
+                                            <li>HTML</li>
+                                            <li>SCSS</li>
+                                            <li>Mustache</li>
+                                            <li>Three.js</li>
+                                            <li>Smarty PHP</li>
+                                            <li>Own search engine</li>
+                                        </ul>
+                                    </div>
+                                    <a target="_blank" href="https://www.parfemy-elnino.cz/" class="btn btn--white">show website!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-center-text u-mt-huge">
+                    <a href="#" class="btn btn--green">Discover all websites</a>
+                </div>
+            </section>
+
+            <section class="section-contact" id="section-contact">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
+                                <div class="u-mb-medium">
+                                    <h2 class="heading-secondary">Gimme feedback</h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                                    <label for="name" class="form__label">Full name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                                    <label for="email" class="form__label">Email address</label>
+                                </div>
+
+                                <div class="form__group u-mb-medium">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            I like it
+                                        </label>
+                                    </div>
+
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="large" name="size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            I don't like it
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form__group">
+                                    <a href="#popup" class="btn btn--green">Next step &rarr;</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="src/img/logo-white.png" alt="Logo" class="footer__logo">
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">About me</a></li>
+                            <li class="footer__item"><a href="#section-about" class="footer__link">Who am I</a></li>
+                            <li class="footer__item"><a href="#section-features" class="footer__link">Features</a></li>
+                            <li class="footer__item"><a href="#section-websites" class="footer__link">Websites</a></li>
+                            <li class="footer__item"><a href="#section-contact" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Copyright &copy; by Jan Dorschner
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="src/img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-contact" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-mb-small">Start feedbacking now</h2>
+                    <h3 class="heading-tertiary u-mb-small">Important &ndash; Please read these terms before sending</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                        amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+                        sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+                        gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
+                        Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+                        vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+                        vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+                        euismod nisi porta.
+                    </p>
+                    <a href="#" class="btn btn--green">Send now</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
