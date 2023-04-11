@@ -7,7 +7,7 @@ Example of basic Webpack config for a website.
 
 ## Use node verison 14+ or latest  
 
-[press CTRL + click here for node](https://nodejs.org/en/download)
+[press CTRL + click here for node](https://nodejs.org/en/download)  
 [press CTRL + click here if u need nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 
 ----
