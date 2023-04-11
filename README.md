@@ -6,8 +6,12 @@ Example of basic Webpack config for a website.
 - no javascript used
 
 Use node verison 14+ or latest  
-[click here for node](https://nodejs.org/en/download)  
-[click here if u need nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)  
+[click here for node](https://nodejs.org/en/download){:target="_blank" rel="noopener"}  
+[click here if u need nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/){:target="_blank" rel="noopener"}  
+
+----
+
+##type those commands to teest your devices
 ```
 $ node -v
 $ nvm -v
