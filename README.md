@@ -3,11 +3,15 @@ Example of basic Webpack config for a website.
 - no templating engine used
 - classes are named by BEM
 - styling by SCSS
+- no javascript used
 
-Use node verison 14+ or latest
-[click here for node](https://nodejs.org/en/download)
+Use node verison 14+ or latest  
+[click here for node](https://nodejs.org/en/download)  
+[click here if u need nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)  
 ```
-$ nvm install 14
+$ node -v
+$ nvm -v
+$ nvm install 14 or nvm install --lts
 $ nvm use 14
 ```
 
